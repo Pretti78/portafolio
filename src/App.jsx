@@ -1,6 +1,7 @@
 import './App.css';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
+import Projects from './components/Projects';
 import SobreMi from './components/SobreMi';
 import Technologies from './components/Technologies';
 
@@ -11,6 +12,7 @@ function App() {
 			<Home />
 			<SobreMi />
 			<Technologies />
+			<Projects />
 		</div>
 	);
 }
