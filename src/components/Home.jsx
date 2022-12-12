@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
 import fondo from '../assets/images/background.jpg';
 
 const Home = () => {
@@ -28,6 +28,7 @@ const Home = () => {
 							fontSize: '10rem',
 							color: 'white',
 						}}
+						className="title-machine"
 					>
 						Pretti
 						<br />
@@ -42,6 +43,7 @@ const Home = () => {
 					>
 						Front-end Developer
 					</h2>
+					<Button className="btn ">Descargar CV</Button>
 				</div>
 			</Container>
 		</>
