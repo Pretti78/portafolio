@@ -45,7 +45,7 @@ const Home = () => {
 					</h2>
 
 					<a
-						href="../../public/Cv.pdf"
+						href="../assets/Cv.pdf"
 						download="Pretti Omar CV"
 						className="btn"
 						style={{ background: '#141414', color: 'white' }}
