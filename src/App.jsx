@@ -1,5 +1,6 @@
 import './App.css';
 import Home from './components/Home';
+import LetsWork from './components/LetsWork';
 import NavBar from './components/NavBar';
 import Projects from './components/Projects';
 import SobreMi from './components/SobreMi';
@@ -13,6 +14,7 @@ function App() {
 			<SobreMi />
 			<Technologies />
 			<Projects />
+			<LetsWork />
 		</div>
 	);
 }
