@@ -29,6 +29,7 @@ const LetsWork = () => {
 					<Form
 						style={{ marginTop: '6rem', fontSize: '2rem' }}
 						onSubmit={handleSubmit(submit)}
+						netlify
 					>
 						<Form.Group className="mb-3" controlId="formGroupEmail">
 							<Form.Label htmlFor="email">Email</Form.Label>
