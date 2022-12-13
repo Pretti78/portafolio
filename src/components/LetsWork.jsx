@@ -22,7 +22,7 @@ const LetsWork = () => {
 	};
 
 	return (
-		<Container>
+		<Container id="contactame">
 			<h1 className="title-section">Contacto</h1>
 			<Row lg={2}>
 				<Col lg={7}>
@@ -30,7 +30,7 @@ const LetsWork = () => {
 						style={{ marginTop: '6rem', fontSize: '2rem' }}
 						onSubmit={handleSubmit(submit)}
 						name="contacto"
-						netlify
+						// netlify
 					>
 						<Form.Group className="mb-3" controlId="formGroupEmail">
 							<Form.Label htmlFor="email">Email</Form.Label>

@@ -5,7 +5,7 @@ import eCommerce from '../assets/images/ecommerce.png';
 
 const Projects = () => {
 	return (
-		<Container style={{ marginTop: '2rem' }}>
+		<Container style={{ marginTop: '2rem' }} id="proyectos">
 			<h1 className="title-section">Proyectos</h1>
 			<Row
 				lg={3}

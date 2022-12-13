@@ -10,7 +10,7 @@ import reduxIcon from '../assets/icons/redux.ico';
 
 const Technologies = () => {
 	return (
-		<Container style={{ marginTop: '5rem' }}>
+		<Container style={{ marginTop: '5rem' }} id="tegnologias">
 			<h1 className="title-section">Tecnologias</h1>
 			<Row
 				style={{

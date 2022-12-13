@@ -14,7 +14,7 @@ const Home = () => {
 					position: 'absolute',
 				}}
 			/>
-			<Container>
+			<Container id="home">
 				<div
 					style={{
 						padding: '8%',
@@ -43,7 +43,15 @@ const Home = () => {
 					>
 						Front-end Developer
 					</h2>
-					<Button className="btn ">Descargar CV</Button>
+
+					<a
+						href="../../public/Cv.pdf"
+						download="Pretti Omar CV"
+						className="btn"
+						style={{ background: '#141414', color: 'white' }}
+					>
+						Descargar CV
+					</a>
 				</div>
 			</Container>
 		</>

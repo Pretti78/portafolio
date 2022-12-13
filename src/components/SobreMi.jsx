@@ -4,7 +4,7 @@ import yo from '../assets/images/sobreMi.png';
 
 const SobreMi = () => {
 	return (
-		<Container>
+		<Container id="sobreMi">
 			<Row lg={2}>
 				<Col lg={4}>
 					<h1 className="title-section">sobre mi</h1>

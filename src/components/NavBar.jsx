@@ -30,13 +30,13 @@ const NavBar = () => {
 						<Nav.Link href="#home" style={{ color: 'white' }}>
 							Inicio
 						</Nav.Link>
-						<Nav.Link href="#SobreMi" style={{ color: 'white' }}>
+						<Nav.Link href="#sobreMi" style={{ color: 'white' }}>
 							Sobre Mi
 						</Nav.Link>
-						<Nav.Link href="#tecnologias" style={{ color: 'white' }}>
+						<Nav.Link href="#tegnologias" style={{ color: 'white' }}>
 							Tecnologias
 						</Nav.Link>
-						<Nav.Link href="#proyectoss" style={{ color: 'white' }}>
+						<Nav.Link href="#proyectos" style={{ color: 'white' }}>
 							Proyectos
 						</Nav.Link>
 						<Nav.Link href="#contactame" style={{ color: 'white' }}>
