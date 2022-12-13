@@ -35,6 +35,7 @@ const LetsWork = () => {
 						<Form.Group className="mb-3" controlId="formGroupEmail">
 							<Form.Label htmlFor="email">Email</Form.Label>
 							<Form.Control
+								name="email"
 								type="email"
 								placeholder="ingresa tu email..."
 								{...register('email', {
@@ -53,6 +54,7 @@ const LetsWork = () => {
 							htmlFor="textArea"
 						>
 							<Form.Control
+								name="textArea"
 								as="textarea"
 								placeholder="Leave a comment here"
 								{...register('textArea', { required: true })}
