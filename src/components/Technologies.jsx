@@ -26,7 +26,7 @@ const Technologies = () => {
 				</Col>
 				<Col>
 					<img src={reactIcon} alt="" className="iconsT" />
-					<h3 className="styleH3">Ract.js</h3>
+					<h3 className="styleH3">React.js</h3>
 				</Col>
 				<Col>
 					<img src={javaScriptIcon} alt="" className="iconsT" />

@@ -29,7 +29,9 @@ const Projects = () => {
 							<Card.Text>
 								Tienda donde puedes encontrar productos variados.
 							</Card.Text>
-							<Button variant="primary">Vamos</Button>
+							<a href="https://pretti-ecommerce.netlify.app" target="_blank">
+								<Button variant="primary">Vamos</Button>
+							</a>
 						</Card.Body>
 					</Card>
 				</Col>
@@ -43,9 +45,11 @@ const Projects = () => {
 							<Card.Text>
 								Quieres conocer los personajes de Rick And Morty?
 							</Card.Text>
-							<Button variant="primary" style={{ marginTop: '0' }}>
-								Vamos
-							</Button>
+							<a href="https://pretti-ram.netlify.app" target="_blank">
+								<Button variant="primary" style={{ marginTop: '0' }}>
+									Vamos
+								</Button>
+							</a>
 						</Card.Body>
 					</Card>
 				</Col>
