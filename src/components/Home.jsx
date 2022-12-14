@@ -1,6 +1,7 @@
 import React from 'react';
-import { Button, Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import fondo from '../assets/images/background.jpg';
+import cv from '../assets/cv.pdf';
 
 const Home = () => {
 	return (
@@ -45,7 +46,7 @@ const Home = () => {
 					</h2>
 
 					<a
-						href="../assets/Cv.pdf"
+						href={cv}
 						download="Pretti Omar CV"
 						className="btn"
 						style={{ background: '#141414', color: 'white' }}
