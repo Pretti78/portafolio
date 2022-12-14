@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import fondo from '../assets/images/background.jpg';
-import cv from '../assets/cv.pdf';
+import cv from '../../public/cv.pdf';
 
 const Home = () => {
 	return (
