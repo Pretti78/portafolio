@@ -8,7 +8,7 @@ import {
 	Row,
 } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 import avatar from '../assets/images/contacto.png';
 
 const LetsWork = () => {
