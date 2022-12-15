@@ -5,10 +5,10 @@ import {
 	Container,
 	FloatingLabel,
 	Form,
-	Modal,
 	Row,
 } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
+import emailjs from '@emailjs/browser';
 import avatar from '../assets/images/contacto.png';
 
 const LetsWork = () => {
@@ -18,6 +18,21 @@ const LetsWork = () => {
 
 	const submit = (data) => {
 		console.log(data);
+		// emailjs
+		// 	.sendForm(
+		// 		'service_2s1kki6',
+		// 		'template_5qb17s9',
+		// 		data.current,
+		// 		'fjs3dsAlgawymKo_5'
+		// 	)
+		// 	.then(
+		// 		(result) => {
+		// 			console.log(result);
+		// 		},
+		// 		(error) => {
+		// 			console.log(error);
+		// 		}
+		// 	);
 		reset(defaultValues);
 	};
 
@@ -29,14 +44,12 @@ const LetsWork = () => {
 					<Form
 						style={{ marginTop: '6rem', fontSize: '2rem' }}
 						onSubmit={handleSubmit(submit)}
-						name="contacto"
-						// netlify
 					>
 						<Form.Group className="mb-3" controlId="formGroupEmail">
 							<Form.Label htmlFor="email">Email</Form.Label>
 							<Form.Control
-								name="email"
 								type="email"
+								name="user_email"
 								placeholder="ingresa tu email..."
 								{...register('email', {
 									required: true,
@@ -54,8 +67,8 @@ const LetsWork = () => {
 							htmlFor="textArea"
 						>
 							<Form.Control
-								name="textArea"
 								as="textarea"
+								name="message"
 								placeholder="Leave a comment here"
 								{...register('textArea', { required: true })}
 								style={{
