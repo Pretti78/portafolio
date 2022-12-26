@@ -9,6 +9,8 @@ const NavBar = () => {
 			expand="lg"
 			fixed="top"
 			style={{ padding: '10px' }}
+			className="navBar-container"
+			id="navBar"
 		>
 			<Container>
 				<Navbar.Brand

@@ -7,7 +7,7 @@ const SobreMi = () => {
 		<Container id="sobreMi">
 			<Row lg={2}>
 				<Col lg={4}>
-					<h1 className="title-section">sobre mi</h1>
+					<h1 className="title-section">Sobre mi</h1>
 					<img src={yo} alt="" style={{ height: '45rem' }} />
 				</Col>
 				<Col
@@ -31,13 +31,13 @@ const SobreMi = () => {
 						<h2 className="colorh2">¿Quién soy?</h2>
 						<p>
 							¡Hola! Mi nombre es Omar Pretti pero puedes llamarme Pretti. Soy
-							un apacionado por el mundo del Desarrollo Web.
+							un apasionado por el mundo del Desarrollo Web.
 						</p>
 						<h2 className="colorh2">Mis estudios</h2>
 						<p>
 							En 2019 comencé a estudiar Ingeniería en Informática en la
 							Universidad Nacional De La Plata y en 2022 decidí enforcame en lo
-							que me apaciona, entonces comencé a estudiar en Academlo y me
+							que me apasiona, entonces comencé a estudiar en Academlo y me
 							formé como desarrollador web full-stack.
 						</p>
 					</div>

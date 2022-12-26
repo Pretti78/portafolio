@@ -114,3 +114,33 @@ body {
 		transform: translateX(100px);
 	}
 }
+
+@media (max-width: 421px) {
+	#sobreMi {
+		margin-top: 20rem;
+	}
+	#navBar {
+		width: 75%;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+	#sobreMi {
+		margin-top: 60rem;
+	}
+}
+@media (max-width: 1441px) {
+	#sobreMi {
+		margin-top: 20rem;
+	}
+}
+@media (max-width: 1925px) {
+	#sobreMi {
+		margin-top: 49rem;
+	}
+}
+@media (max-width: 2155px) {
+	#sobreMi {
+		margin-top: 49rem;
+	}
+}
