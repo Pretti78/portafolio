@@ -68,7 +68,10 @@ const Projects = () => {
 							<Card.Text>
 								Portafolio responsive, desarrollado con: HTML, CSS y JavaScript.
 							</Card.Text>
-							<a href="portafolio-academlo-pretti.netlify.app" target="_blank">
+							<a
+								href="https://portafolio-academlo-pretti.netlify.app"
+								target="_blank"
+							>
 								<Button variant="primary" style={{ marginTop: '0' }}>
 									Vamos
 								</Button>
